@@ -14,7 +14,7 @@ As `COUNT`, `AVG` doesn't count null cells.
 
 > TIP!
 >
-> **To remember**: Always that one column wouldn't be in a agregation should be in `GROUP BY` statement
+> **To remember**: Always that one column wouldn't be in a aggregation should be in `GROUP BY` statement
 > 
 > **Lembrete**: Qualquer coluna que não estiver em uma agregação deve aparecer na declaração `GROUP BY`.
 
