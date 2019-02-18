@@ -1,5 +1,5 @@
 # ERD (Entity Relationship Diagram)
-![ERD](erd.png)
+![ERD](../erd.png)
 
 # 8. Quiz: Relacionamento entre chaves primárias e estrangeiras
 ### 1. Tente puxar todos os dados da tabela accounts, e todos os dados da tabela orders.
@@ -342,7 +342,7 @@ JOIN region reg
     ON reg.id = sr.region_id
 GROUP BY reg.name;
 ```
-![ERD](erd.png)
+![ERD](../erd.png)
 
 # 17. Quiz: GROUP BY [parte 02]
 
@@ -405,7 +405,7 @@ GROUP BY ev.channel, reg.name
 ORDER BY counter DESC;
 ```
 
-![ERD](erd.png)
+![ERD](../erd.png)
 
 # 20. Quiz: DISTINCT
 
@@ -591,7 +591,7 @@ LIMIT 10;
 -- 1509 results
 ```
 
-![ERD](erd.png)
+![ERD](../erd.png)
 
 # 27. Quiz: Funções DATE
 
