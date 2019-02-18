@@ -1,0 +1,36 @@
+# Introdução a Data Wrangling
+
+Composto pelas etapas de Coleta, Avaliação e Limpeza, o Data Wrangling é importante para que os dados estejam organizados, preparados e limpos para que se dê início a sua análise.
+
+# 1. Gather (Coleta)
+Carregar os dados de forma automatizada de forma que minimize ao máximo o trabalho de quem possa vir a executar sua análise é uma boa prática.
+> Acessando os dados programaticamente, seja buscando-os na web ou extraindo de um arquivo zip
+
+Após a configuração e carregamento dos dados se da início a próxima etapa, a de avaliação (assess) dos dados.
+
+# 2. Assess (Avaliação)
+A Avaliação consiste em identificar a qualidade dos dados e sua organização. Dados de baixa de qualidade são sujos e dados de desordenados estão bagunçados.
+A qualidade dos dados é uma percepção ou avaliação de possíveis adequações dos dados para que atendam ao propósito de determinado contexto/aplicação. Em outras palavras, não há regras rigorosas para a qualidade dos dados. Um conjunto de dados pode apresentar uma alta qualidade para um determinado contexto, mas baixa qualidade para outro.
+
+Nesta etapa é importante a identificação, por exemplo: 
+* falta de dados como valores nulos;
+* dados inválidos, valores negativos em contextos não aplicaveis (ex: altura, peso, distância, etc);
+* dados imprecisos, valores que não representam a realidade que supostamente os dados deveriam representar;
+* dados inconsistentes, diferentes tipos de unidades para uma mesma coluna (ex: metros, centímetros, polegadas, etc)
+* organização dos dados;
+
+# 3. Clean (Limpeza)
+Melhorar a qualidade dos dados não é o mesmo de altera-los, o que é uma fraude, essa transformação dos dados consiste em:
+* cada variável seja uma coluna;
+* cada observação seja uma linha;
+* cada unidade de observação seja uma tabela;
+
+O processo de limpeza por meio de programação pode ser dividido em três etapas, **definir**, **código** e **testar**;
+## 1. Definir
+Definir por escrito um plano de limpeza, explicitando tarefas de limpeza. Estas tarefas irão auxiliar em um segundo momento as pessoas que ver a análise e ou reproduzi-la.
+
+## 2. Código
+Implementar as tarefas definidas em código e executa-las.
+
+## 3. Testar
+Certificar que as adaptações da limpeza funcionaram.
