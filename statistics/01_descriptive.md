@@ -36,12 +36,15 @@ Dados **discretos** apresentam apenas valores contáveis
 
 <a id="resumo-tipo-de-dados"></a>
 # Resumo
-| Tipos de dados  |||
-| --- | --- | --- |
+## Tipos de dados
+
 | **Quantitativos:**	| **Contínuos**         | **Discretos** |
+| --- | --- | --- |
 |                     | Altura, idade, renda  | Páginas em um livro, árvores em um quintal, cães em uma cafeteria |
-| | | |
+
+
 | **Categóricos:**  | **Ordinais**  | **Nominais**  |
+| --- | --- | --- |
 |     | Notas, classificação de pesquisas | Gênero, estado civil, itens de café da manhã  |
 
 
