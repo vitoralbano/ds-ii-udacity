@@ -64,4 +64,4 @@ Há quatro aspectos centrais à análise de dados **quantitativos**
 
 ------
 # Notação
-
+[Usada para comunicar ideias matemáticas de forma mais clara, para entender um pouco mais, veja um breve resumo](notation.md).
