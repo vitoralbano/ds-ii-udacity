@@ -1,4 +1,6 @@
 # Estatística Descritiva 
+Diz sobre descrever os dados coletados usando medidas como: medidas de tendência central, medidas de dispersão, forma da distribuição e *outliers*. Gráficos podem ser utilizados para uma melhor compreensão.
+
 * [Tipos de dados](#tipos-de-dados)
   * [Categóricos Ordinais x Nominais](#categoricos)
   * [Quantitativos Contínuos x Discretos](#quantitativos)
@@ -58,10 +60,19 @@ Há quatro aspectos centrais à análise de dados **quantitativos**
   * [`Mediana` - *Median*](center#mediana)
   * [`Moda` - *Mode*](center#excecoes)
 2. [Medidas de `Dispersão` - *Spread*](spread.md)
-3. [`Forma` dos dados - *Shape*]()
-4. [`Exceções` - *Outliers*]()
+3. [`Forma` dos dados - *Shape*](shape.md)
+4. [`Exceções` - *Outliers*](outliers.md)
 
 
 ------
 # Notação
 [Usada para comunicar ideias matemáticas de forma mais clara, para entender um pouco mais, veja um breve resumo](notation.md).
+
+
+# Estatística Inferencial
+`Estastística Inferencial` é sobre usar dados coletados para inferir conclusões para uma população maior.
+
+* **População**: Todo o grupo de interesse
+* **Parâmetro**: Resumo numérico sobre a população
+* **Amostra**: Subconjunto da população
+* **Inferência**: Resumo numérico **estatístico** sobre uma amostra
